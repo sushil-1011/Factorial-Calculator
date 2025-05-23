@@ -1,87 +1,65 @@
 
- 🌟 Factorial Calculator Web App
+# Factorial Calculator Web App
 
-This is a simple and responsive web application that calculates the factorial of a given number using both **iterative** and **recursive** methods. It also includes a functional **contact form with input validation**.
+This is a simple web application that calculates the factorial of a given number using both iterative and recursive methods. It also includes a basic contact form with input validation.
 
-## 🚀 Features
+## Features
 
-- ✏️ Input field to enter a positive integer
-- 🔄 Two calculation methods:
-  - **Iterative**
-  - **Recursive**
-- 🛑 Input validation for non-numeric and negative values
-- 📩 Contact form with fields for:
-  - Name
-  - Email
-  - Message
-  - Email format validation
-- 📱 Responsive and user-friendly interface
+- Input field to enter a number
+- Choose between iterative and recursive calculation
+- Input validation for non-numeric or negative values
+- Displays the result with the method used
+- Contact form with name, email, and message fields
+- Email format validation
 
-## 🧠 Technologies Used
+## Technologies Used
 
-- **HTML** – Structure of the webpage  
-- **CSS** – Styling and layout  
-- **JavaScript** – Logic for factorial calculation and form validation  
-- *(Optional backend using Node.js/Express if extended in the future)*
+- HTML for the structure
+- CSS for styling and layout
+- JavaScript for factorial logic and form validation
 
-## 🛠 How It Works
+## How It Works
 
-- User enters a number
-- Chooses either **Iterative** or **Recursive** calculation
-- Clicks a button to get the result
-- The app displays the factorial with the method used
+1. Enter a number in the input field.
+2. Click either "Iterative" or "Recursive" button.
+3. The factorial result is shown along with the method used.
+4. The contact form allows users to send a message with basic validation.
 
-## ✅ Validations
+## Files Included
 
-- Ensures only **positive integers** are processed
-- Checks for **empty** or **invalid email** in contact form
-- Shows appropriate messages on invalid input
+- `index.html` – main HTML file
+- `style.css` – stylesheet
+- `script.js` – JavaScript file for logic
+- `README.md` – project description
 
-## 🌐 Live Demo
+## How to Run
 
-➡️ [Click here to view the live site](https://sushil-1011.github.io/Factorial-Calculator/) *(GitHub Pages URL — update if needed)*
-
-## 📁 Project Structure
-
+1. Clone the repository:
 ```
 
-factorial-app/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+git clone [https://github.com/sushil-1011/Factorial-Calculator.git](https://github.com/sushil-1011/Factorial-Calculator.git)
 
-````
+```
+2. Open the `index.html` file in any web browser.
 
-## 📌 How to Use
+## Author
 
-1. Clone or download this repository  
-   ```bash
-   git clone https://github.com/sushil-1011/Factorial-Calculator.git
-````
-
-2. Open `index.html` in your browser
-3. Try calculating factorials and submitting the contact form
-
-## ✍️ Author
-
-**Sushil** – [GitHub Profile](https://github.com/sushil-1011)
+Sushil  
+GitHub: https://github.com/sushil-1011
+```
 
 ---
 
-Feel free to ⭐️ the repo if you found this helpful!
+### To Use This:
 
-````
-
----
-
-### ✅ To Add This:
-Create a new file in your project folder called `README.md`, paste the content above, save it, then run:
+1. Create a `README.md` file in your project folder.
+2. Paste this content.
+3. Save it.
+4. Run these Git commands:
 
 ```bash
 git add README.md
-git commit -m "Add project README"
+git commit -m "Add simplified README"
 git push
-````
+```
 
-Want me to update the live site for you using **GitHub Pages**?
