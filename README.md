@@ -3,6 +3,13 @@
 
 This is a simple web application that calculates the factorial of a given number using both iterative and recursive methods. It also includes a basic contact form with input validation.
 
+## Live Demo
+
+You can use the app directly in your browser:
+
+[View Live on GitHub Pages](https://sushil-1011.github.io/Factorial-Calculator/)
+
+
 ## Features
 
 - Input field to enter a number
